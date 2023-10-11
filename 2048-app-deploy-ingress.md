@@ -4,10 +4,10 @@
 
 ```
 eksctl create fargateprofile \
-    --cluster demo-cluster \
+    --cluster myapp-2048-cluster \
     --region us-east-1 \
-    --name alb-sample-app \
-    --namespace game-2048
+    --name alb-2048-app \
+    --namespace myapp-2048
 ```
 
 ## Deploy the deployment, service and Ingress
